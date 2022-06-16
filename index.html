@@ -1,0 +1,76 @@
+<%--
+  Date Created: May 6, 2009
+  Purpose:      This page is used to change a Business Objects Enterprise
+                user name of type secEnterprise.
+  Created By:   BDB
+--%>
+
+<html>
+<head>
+     <title>Change BOE User Name</title>
+     <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>  
+    <div id="mainContainer">
+        <div id="sampleDescriptionDiv">
+            <h1 id="sampleTitle">Change BOE User Name</h1>
+            <p id="sampleDescription">This Java Server Pages (JSP) sample demonstrates how to change a Business Objects Enterprise User Name.</p>
+        </div>
+        <!-- Form to capture information necessary to run the sample
+        ****************************************************** -->
+        <form id="sampleForm" method="post" action="ChangeUsername.jsp">
+           <table class="infoTbl">
+               <th colspan="2" class="tableHeader">Please enter your log on info and change data</th>
+               <tr>
+                       <td>CMS: </td>
+                       <td><input type="text" id="cmsName" name="cmsName" value="BDB-BOE-XIR2SP2" class="formField"></td>
+               </tr>                           
+               <tr>
+                       <td>User Name: </td>
+                       <td><input type="text" id="userName" name="userName" value="administrator" class="formField"></td>
+               </tr>
+               <tr>
+                       <td>Password: </td>
+                       <td><input type="password" id="password" name="password" value="" class="formField"></td>
+               </tr>
+               <tr>
+                       <td>Authentication Type: </td>
+                       <td><input type="label" id="authType" name="authType" value="secEnterprise" class="formField"></td>
+               </tr>
+               <tr>
+                        <td colspan=2><hr /></td>
+               </TR>
+               <tr>
+                       <td>Original user name: </td>
+                       <td><input type="text" id="oldName" name="oldName" value="" class="formField"></td>
+               </tr>
+               <tr>
+                       <td>New user name to: </td>
+                       <td><input type="text" id="newName" name="newName" value="" class="formField"></td>
+               </tr>
+               <tr>
+                       <td></td>
+                       <td><input id="submitBtn" type="submit" class="btn" value="Submit"></td>
+               </tr>
+           </table>
+        </form>
+        
+        <div class="infoDiv">
+           <table class="infoTbl">
+              <th colspan="1" class="tableHeader">Notes:</th>
+              <tr>
+                 <td>
+                         <p>Once the submit button has been pressed, this page will remain displayed until either the CMS is available or the number of retries has expired.</p>
+                         <p>You can view the <a href="readme.txt" target="_blank">Read Me</a> file for instructions on how to install this sample.</p>
+                         <p>Please check our <a href="more_info.html" target="_blank">More Info</a> page for the disclaimer information.</p>
+                         <p>Please visit our <a href="http://devlibrary.businessobjects.com/BusinessObjectsXIR2SP2/en/devsuite.htm" target="_blank">online library</a> for our up to date SDK help files.</p>
+                 </td>
+              </tr>                   
+           </table>                
+        </div>
+        
+        <div id="copyright">&copy; SAP Business Objects Technical Support</div>     
+    </div>
+</BODY>
+</HTML>

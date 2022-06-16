@@ -1,0 +1,131 @@
+body {
+	color: #000;
+	background-color: #fff;
+	font-family:Arial;
+	font-size: 62.5%;	
+}
+
+a {
+	outline: none;
+	color: #4682b4;
+}
+
+a:focus, a:hover, a:active {
+	color: #87ceeb;
+}
+
+* p {
+	font-size:1em;
+}
+
+#mainContainer{
+	position:relative;
+	left:1em;
+	width:100em;
+}
+	
+#sampleDescriptionDiv {
+	width:51em;
+}
+	
+#sampleDescriptionDiv #sampleTitle {
+	font-weight:bold;
+	font-size:1.7em;
+}
+	
+#sampleDescriptionDiv #sampleDescription {		
+	font-size:1.4em;
+}
+	
+#sampleForm, .infoDiv  {
+	width:50.6em;
+	margin-bottom:1em;
+	border: 2px solid #ccc;
+}
+	
+.infoTbl {
+	position:relative;
+	top:0;
+	left:0;
+	width:31.6em;		
+}
+		
+.infoTbl th {
+	background:#F2F1E1;
+	border:1px solid #ccc;
+	color:#325087;
+	padding:.3em;
+	text-align:left;
+}
+		
+.infoTbl td {
+	padding-left:.5em;
+	font-size:.9em;
+}
+		
+.infoTbl td .formField {
+	width:26em;
+	border:1px solid #ccc;
+}
+		
+.btn {
+	border:3px double #ccc;
+	background:#F2F1E1;
+	cursor:pointer;
+	position:relative;	
+}	
+			
+.btn:hover {
+	color:#f00;
+}
+
+.infoDiv,#disclaimerDiv {
+	position:relative;
+	top:0;
+	left:0;
+}
+	
+.infoDiv td,#disclaimerDiv td {
+	padding:.5em;
+}
+
+#disclaimerDiv td {
+    font-size:70%;
+}
+
+#noteTable td {
+	font-style:italic;
+}		
+	
+#copyright {
+	position:relative;
+	top:0;
+	left:.4em;
+	width:47.8em;
+	padding:.1em;
+	text-align:left;
+}
+
+#warningTxt {
+	color:#f00;
+	font-weight:bold;
+    border-width:0px;
+    font-size:.8em;
+	background:#fff;
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
